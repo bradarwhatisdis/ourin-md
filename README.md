@@ -122,17 +122,20 @@
 
 ## 📸 Screenshot
 
-<p align="center">
-  <img src="./assets/image/ourin-allmenu.jpg" alt="Menu" width="250"/>
-  <img src="./assets/image/ourin-games.jpg" alt="Games" width="250"/>
-  <img src="./assets/image/ourin-rpg.jpg" alt="RPG" width="250"/>
-</p>
-
-<p align="center">
-  <img src="./assets/image/ourin-landscape.jpg" alt="Landscape" width="250"/>
-  <img src="./assets/image/ourin-levelup.jpg" alt="Level Up" width="250"/>
-  <img src="./assets/image/ourin-store.png" alt="Store" width="250"/>
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="./assets/image/ourin-allmenu.jpg" alt="Menu" width="200"/><br><sub>Menu</sub></td>
+      <td align="center"><img src="./assets/image/ourin-games.jpg" alt="Games" width="200"/><br><sub>Games</sub></td>
+      <td align="center"><img src="./assets/image/ourin-rpg.jpg" alt="RPG" width="200"/><br><sub>RPG</sub></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="./assets/image/ourin-landscape.jpg" alt="Landscape" width="200"/><br><sub>Landscape</sub></td>
+      <td align="center"><img src="./assets/image/ourin-levelup.jpg" alt="Level Up" width="200"/><br><sub>Level Up</sub></td>
+      <td align="center"><img src="./assets/image/ourin-store.png" alt="Store" width="200"/><br><sub>Store</sub></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
