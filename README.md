@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/image/ourin.png" alt="OURIN AI" width="200"/>
+  <img src="./assets/image/ourin.png" alt="OURIN AI" width="300"/>
 </p>
 
 <h1 align="center">🤖 OURIN AI</h1>
