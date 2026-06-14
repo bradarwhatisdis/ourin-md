@@ -24,6 +24,7 @@ import { initAutoJpmScheduler } from "./src/lib/ourin-auto-jpm.js";
 import { startMemoryMonitor } from "./src/lib/ourin-memory-monitor.js";
 import { startTempCleaner } from "./src/lib/ourin-temp-cleaner.js";
 import { startDailyPruner } from "./src/lib/ourin-data-pruner.js";
+import { initAutoUpdate } from "./src/lib/ourin-auto-update.js";
 import {
   logger,
   c,
@@ -371,6 +372,10 @@ async function main() {
         } catch (e) {
           logger.error("JADIBOT", `Gagal memulihkan: ${e.message}`);
         }
+
+        try {
+          initAutoUpdate(sock);
+        } catch {}
 
         const devLabel = config.dev?.enabled ? ` ${c.yellow("• dev")}` : "";
         startMemoryMonitor();
