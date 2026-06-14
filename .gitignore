@@ -1,0 +1,10 @@
+node_modules/
+session/
+data/
+database/
+storage/
+temp/
+.cache/
+.npm/
+.env
+*.log
